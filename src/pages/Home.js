@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { Blob } from "@components";
 
 const Wrapper = styled.div``;
 
 const Home = () => (
   <Wrapper>
-    <h1>Base</h1>
+    <Blob />
   </Wrapper>
 );
 
